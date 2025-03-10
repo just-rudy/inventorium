@@ -1,0 +1,37 @@
+# Inventorium database scheme
+
+## Tables
+* Equipment
+* Bases
+* Transfer
+* Booking
+* Statuses
+* Users
+* Events
+* Organisations
+
+### Equipment
+Весь доступный к бронированию и использованию инвентарь.  
+id - буква типа инструмента и номер (например: Ш3 - это шуруповерт под номером 3, УШМ1 - Болгарка под номером 1)
+
+
+### Bases
+
+
+### Transfer
+
+
+### Booking
+
+
+### Statuses
+
+
+### Users
+
+
+### Events
+
+
+### Organisation
+
