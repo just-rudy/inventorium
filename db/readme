@@ -1,5 +1,17 @@
 # Inventorium database scheme
 
+## postgres
+
+### поднять таблицы
+psql -h localhost -U postgres -d postgres -f create_tables.sql
+
+### навесить ограничения
+psql -h localhost -U postgres -d postgres -f constraints.sql
+
+### друпнуть все
+psql -h localhost -U postgres -d postgres -f drop_all.sql
+
+
 ## Tables
 * Equipment
 * Bases
